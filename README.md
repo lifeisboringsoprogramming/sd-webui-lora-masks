@@ -26,13 +26,30 @@ This project can be run as a stable Diffusion extension inside the Stable Diffus
 
 <img src="images/webui-install.png" />
 
+# Differences from sd-webui-additional-networks
+* Lora models are put in standard stable diffusion models Lora folder instead of a separate extension folder
+* Only the UI in txt2img and img2img are implemented, the extension tab is removed
+* The network dropdown box is removed
+* The weights for the UNet/Text Encoder cannot be separated, only one slide to control the LoRA weight
+* The LoRA dropdown box is replaced with input text field, you can just copy the filename of the LoRA model to the input field (i.e you input libspgc for the file [libspgc.safetensors](https://civitai.com/models/33206/lifeisboring-virtual-girl-01-morgan))
+* There is a mask image available for every 3 LoRA models instead of just one mask image available
+* Added tabs to group a set of 9 LoRA and 3 masks in each tab
+
+# LoRA models location
+* just put it inside the standard stable diffusion models Lora folder
+* /home/lifeisboringsoprogramming/stable-diffusion-webui/models/Lora
+
+# LoRA mask algorithm
+* the algorithm is the same as in sd-webui-additional-networks
+* Please refer to the forward function in the file lora_masks_lora_compvis.py
+<img src="images/algorithm.png" />
+
 # Settings
 To set the number of tabs
 * Go to settings tab
 <img src="images/webui-settings.png" />
 
-
-# Screenshotsmasks
+# Screenshots
 * with controlnet extension
 * 8 different LoRA models
 * 4 masks (each mask for 2 LoRA models)
