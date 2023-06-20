@@ -49,6 +49,9 @@ To set the number of tabs
 * Go to settings tab
 <img src="images/webui-settings.png" />
 
+* Click "Apply settings" button to update the config
+* Restart the program to take effect (not clicking the "Reload UI" button)
+
 # Screenshots
 * with controlnet extension
 * 8 different LoRA models
