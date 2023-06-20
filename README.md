@@ -65,6 +65,16 @@ To set the number of tabs
 ## Result
 <img src="images/result.jpg" />
 
+## LoRA used in screenshots
+* https://civitai.com/models/24836/90s-keanu-reeveslora
+* https://civitai.com/models/5533/kirsten-dunst
+* https://civitai.com/models/8476/patrick-bateman-christian-bale-lora
+* https://civitai.com/models/9421/natalie-portmanlora
+* https://civitai.com/models/73541/star-trek-tos-uniforms
+* https://civitai.com/models/56920/spider-woman-cosplay-outfit
+* https://civitai.com/models/67427/star-trek-tng-uniformscaptains-variant-update
+* https://civitai.com/models/85016/animeandrealisticelegant-kimono
+
 # YouTube Channel
 Please subscribe to my YouTube channel, thank you very much. 
 
