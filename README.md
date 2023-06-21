@@ -68,6 +68,9 @@ To set the number of tabs
 ## Result
 <img src="images/result.jpg" />
 
+## Result without LoRA masks
+<img src="images/no-masks.png" />
+
 ## LoRA used in screenshots
 * https://civitai.com/models/24836/90s-keanu-reeveslora
 * https://civitai.com/models/5533/kirsten-dunst
