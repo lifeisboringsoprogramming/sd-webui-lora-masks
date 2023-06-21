@@ -14,7 +14,7 @@ A custom extension for [AUTOMATIC1111/stable-diffusion-webui](https://github.com
 # Tutorial
 There is a video to show how to use the extension
 
-[![Stable diffusion tutorial - How to use Two or Three LoRA models in one image without in-paint](https://img.youtube.com/vi/jh-TrplWVA0/sddefault.jpg)](https://www.youtube.com/watch?v=jh-TrplWVA0)
+[![Stable diffusion tutorial - How to use Unlimited LoRA models in one image without in-paint](https://img.youtube.com/vi/KGRRFARk4/sddefault.jpg)](https://www.youtube.com/watch?v=KGRRFARk4)
 
 # Stable Diffusion extension
 This project can be run as a stable Diffusion extension inside the Stable Diffusion WebUI.
