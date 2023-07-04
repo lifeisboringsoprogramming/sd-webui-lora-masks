@@ -1,4 +1,4 @@
-# Most of the codes are from 
+# Most of the codes are from
 # https://github.com/kohya-ss/sd-webui-additional-networks
 #
 # I just added support to allow more masks for the LoRA models
@@ -14,6 +14,23 @@ LORA_MODEL_EXTS = [".pt", ".ckpt", ".safetensors"]
 available_loras = {}
 available_lora_aliases = {}
 forbidden_lora_aliases = {}
+
+
+def walk_files(path, allowed_extensions=None):
+    if not os.path.exists(path):
+        return
+
+    if allowed_extensions is not None:
+        allowed_extensions = set(allowed_extensions)
+
+    for root, dirs, files in os.walk(path):
+        for filename in files:
+            if allowed_extensions is not None:
+                _, ext = os.path.splitext(filename)
+                if ext not in allowed_extensions:
+                    continue
+
+            yield os.path.join(root, filename)
 
 
 def is_safetensors(filename):
@@ -58,7 +75,7 @@ def list_available_loras():
 
     os.makedirs(shared.cmd_opts.lora_dir, exist_ok=True)
 
-    candidates = list(shared.walk_files(shared.cmd_opts.lora_dir,
+    candidates = list(walk_files(shared.cmd_opts.lora_dir,
                       allowed_extensions=[".pt", ".ckpt", ".safetensors"]))
     for filename in sorted(candidates, key=str.lower):
         if os.path.isdir(filename):
