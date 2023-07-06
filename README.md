@@ -56,7 +56,7 @@ To set the number of tabs
 * with controlnet extension
 * 8 different LoRA models
 * 4 masks (each mask for 2 LoRA models)
-* with Latent Couple extension
+* with [Latent Couple extension](https://github.com/opparco/stable-diffusion-webui-two-shot)
 
 <img src="images/01.png" />
 <img src="images/02.png" />
