@@ -81,8 +81,13 @@ To set the number of tabs
 * https://civitai.com/models/67427/star-trek-tng-uniformscaptains-variant-update
 * https://civitai.com/models/85016/animeandrealisticelegant-kimono
 
-## Another example using 3 LoRA masks with Latent Couple extension
+## Other examples
+
+### using 3 LoRA masks with Latent Couple extension
 [https://github.com/lifeisboringsoprogramming/sd-webui-lora-masks/blob/main/images/example.02.png](https://github.com/lifeisboringsoprogramming/sd-webui-lora-masks/blob/main/images/example.02.png)
+
+### using 4 LoRA masks with Latent Couple extension
+[https://github.com/lifeisboringsoprogramming/sd-webui-lora-masks/blob/main/images/example.03.png](https://github.com/lifeisboringsoprogramming/sd-webui-lora-masks/blob/main/images/example.03.png)
 
 # YouTube Channel
 Please subscribe to my YouTube channel, thank you very much. 
